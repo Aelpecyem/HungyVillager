@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "de.aelpecyem.hungyvillager.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "EatGrassGoalMixin",
+    "FarmerVillagerTaskMixin",
+    "MobEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
